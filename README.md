@@ -33,7 +33,6 @@ It shows both **digital and analog time**, including seconds, and can be quickly
 
 ## 🎨 Available Themes
 
-
 | Theme | Preview |
 |-------|---------|
 | **Accent** | ![](./Generated%20Themes/Accent.png) |
@@ -81,6 +80,34 @@ ClockOverlay.exe /uninstall
 
 ---
 
+## ⚙️ Configuration (appsettings.json)
+
+ClockOverlay can be customized through an `appsettings.json` file placed next to the executable.  
+Changes take effect **immediately** — no restart required.
+
+### Available settings
+
+- **Theme**  
+  Select any of the built-in themes (see theme table above).  
+  Example: `"Theme": "Neon"`
+
+- **DigitalLabelHeight**  
+  Controls the height of the digital clock label.  
+  Example: `"DigitalLabelHeight": 60`
+
+### Example `appsettings.json`
+
+```json
+{
+  "Theme": "Neon",
+  "DigitalLabelHeight": 60
+}
+```
+
+ClockOverlay automatically reloads this file using `reloadOnChange`, so updates to the theme or digital label size are applied **live** while the application is running.
+
+---
+
 ## 🏗️ Technical Overview
 
 ClockOverlay is built with:
@@ -124,9 +151,12 @@ ClockOverlay/
 
 ## 📜 License
 
+```
                                Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
+```
+
 ---
 
 ## 💡 Contributions
