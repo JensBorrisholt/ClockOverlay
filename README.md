@@ -3,7 +3,7 @@
 ClockOverlay is a lightweight Windows utility that displays a **floating clock** in the upper-right corner of your screen.  
 It shows both **digital and analog time**, including seconds, and can be quickly toggled using the system tray.
 
-![ClockOverlay Preview](./ClockOverlay/Generated%20Themes/Light.png)
+![ClockOverlay Preview](https://github.com/JensBorrisholt/ClockOverlay/tree/main/Generated%20Themes/Generated%20Themes/Light.png)
 
 ---
 
@@ -33,32 +33,30 @@ It shows both **digital and analog time**, including seconds, and can be quickly
 
 ## 🎨 Available Themes
 
-All theme previews are automatically generated and located in  
-`./ClockOverlay/Generated Themes/`.
 
 | Theme | Preview |
 |-------|---------|
-| **Accent** | ![](./ClockOverlay/Generated%20Themes/Accent.png) |
-| **AeroBlue** | ![](./ClockOverlay/Generated%20Themes/AeroBlue.png) |
-| **BrassAntique** | ![](./ClockOverlay/Generated%20Themes/BrassAntique.png) |
-| **CarbonFiber** | ![](./ClockOverlay/Generated%20Themes/CarbonFiber.png) |
-| **Classic95** | ![](./ClockOverlay/Generated%20Themes/Classic95.png) |
-| **Dark** | ![](./ClockOverlay/Generated%20Themes/Dark.png) |
-| **FireRed** | ![](./ClockOverlay/Generated%20Themes/FireRed.png) |
-| **GlassDark** | ![](./ClockOverlay/Generated%20Themes/GlassDark.png) |
-| **GlassLight** | ![](./ClockOverlay/Generated%20Themes/GlassLight.png) |
-| **Light** | ![](./ClockOverlay/Generated%20Themes/Light.png) |
-| **MinimalisticWhite** | ![](./ClockOverlay/Generated%20Themes/MinimalisticWhite.png) |
-| **Neon** | ![](./ClockOverlay/Generated%20Themes/Neon.png) |
-| **OceanBlue** | ![](./ClockOverlay/Generated%20Themes/OceanBlue.png) |
-| **RadialMetal** | ![](./ClockOverlay/Generated%20Themes/RadialMetal.png) |
-| **Retro** | ![](./ClockOverlay/Generated%20Themes/Retro.png) |
-| **Sunburst** | ![](./ClockOverlay/Generated%20Themes/Sunburst.png) |
-| **Win2000** | ![](./ClockOverlay/Generated%20Themes/Win2000.png) |
-| **Win311** | ![](./ClockOverlay/Generated%20Themes/Win311.png) |
-| **WinME** | ![](./ClockOverlay/Generated%20Themes/WinME.png) |
-| **XpLunaBlue** | ![](./ClockOverlay/Generated%20Themes/XpLunaBlue.png) |
-| **XpLunaOlive** | ![](./ClockOverlay/Generated%20Themes/XpLunaOlive.png) |
+| **Accent** | ![](https://github.com/JensBorrisholt/ClockOverlay/tree/main/Generated%20Themes/Generated%20Themes/Accent.png) |
+| **AeroBlue** | ![](https://github.com/JensBorrisholt/ClockOverlay/tree/main/Generated%20Themes/Generated%20Themes/AeroBlue.png) |
+| **BrassAntique** | ![](https://github.com/JensBorrisholt/ClockOverlay/tree/main/Generated%20Themes/Generated%20Themes/BrassAntique.png) |
+| **CarbonFiber** | ![](https://github.com/JensBorrisholt/ClockOverlay/tree/main/Generated%20Themes/Generated%20Themes/CarbonFiber.png) |
+| **Classic95** | ![](https://github.com/JensBorrisholt/ClockOverlay/tree/main/Generated%20Themes/Generated%20Themes/Classic95.png) |
+| **Dark** | ![](https://github.com/JensBorrisholt/ClockOverlay/tree/main/Generated%20Themes/Generated%20Themes/Dark.png) |
+| **FireRed** | ![](https://github.com/JensBorrisholt/ClockOverlay/tree/main/Generated%20Themes/Generated%20Themes/FireRed.png) |
+| **GlassDark** | ![](https://github.com/JensBorrisholt/ClockOverlay/tree/main/Generated%20Themes/Generated%20Themes/GlassDark.png) |
+| **GlassLight** | ![](https://github.com/JensBorrisholt/ClockOverlay/tree/main/Generated%20Themes/Generated%20Themes/GlassLight.png) |
+| **Light** | ![](https://github.com/JensBorrisholt/ClockOverlay/tree/main/Generated%20Themes/Generated%20Themes/Light.png) |
+| **MinimalisticWhite** | ![](https://github.com/JensBorrisholt/ClockOverlay/tree/main/Generated%20Themes/Generated%20Themes/MinimalisticWhite.png) |
+| **Neon** | ![](https://github.com/JensBorrisholt/ClockOverlay/tree/main/Generated%20Themes/Generated%20Themes/Neon.png) |
+| **OceanBlue** | ![](https://github.com/JensBorrisholt/ClockOverlay/tree/main/Generated%20Themes/Generated%20Themes/OceanBlue.png) |
+| **RadialMetal** | ![](https://github.com/JensBorrisholt/ClockOverlay/tree/main/Generated%20Themes/Generated%20Themes/RadialMetal.png) |
+| **Retro** | ![](https://github.com/JensBorrisholt/ClockOverlay/tree/main/Generated%20Themes/Generated%20Themes/Retro.png) |
+| **Sunburst** | ![](https://github.com/JensBorrisholt/ClockOverlay/tree/main/Generated%20Themes/Generated%20Themes/Sunburst.png) |
+| **Win2000** | ![](https://github.com/JensBorrisholt/ClockOverlay/tree/main/Generated%20Themes/Generated%20Themes/Win2000.png) |
+| **Win311** | ![](https://github.com/JensBorrisholt/ClockOverlay/tree/main/Generated%20Themes/Generated%20Themes/Win311.png) |
+| **WinME** | ![](https://github.com/JensBorrisholt/ClockOverlay/tree/main/Generated%20Themes/Generated%20Themes/WinME.png) |
+| **XpLunaBlue** | ![](https://github.com/JensBorrisholt/ClockOverlay/tree/main/Generated%20Themes/Generated%20Themes/XpLunaBlue.png) |
+| **XpLunaOlive** | ![](https://github.com/JensBorrisholt/ClockOverlay/tree/main/Generated%20Themes/Generated%20Themes/XpLunaOlive.png) |
 
 ---
 
