@@ -4,7 +4,7 @@ using System.Drawing;
 using ClockOverlay.Render;
 
 [ClockTheme(ClockTheme.AeroBlue)]
-public sealed class AeroBlueClockFaceRenderer(int digitalLabelHeight = 60)    : ClockFaceRendererBase(digitalLabelHeight)
+public sealed class AeroBlueClockFaceRenderer(int digitalLabelHeight = 60) : ClockFaceRendererBase(digitalLabelHeight)
 {
     protected override Color DialCenterColor => Color.FromArgb(190, 210, 235, 255);
     protected override Color DialEdgeColor => Color.FromArgb(230, 60, 110, 190);

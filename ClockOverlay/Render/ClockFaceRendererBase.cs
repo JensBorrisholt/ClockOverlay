@@ -124,5 +124,4 @@ public abstract class ClockFaceRendererBase(int digitalLabelHeight)
     protected abstract Color TickColor { get; }
     protected abstract Color BigTickColor { get; }
     protected abstract Color NumberColor { get; }
-
 }

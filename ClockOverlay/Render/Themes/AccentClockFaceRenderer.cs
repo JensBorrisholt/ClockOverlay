@@ -7,7 +7,6 @@ using ClockOverlay.Win32;
 public sealed class AccentClockFaceRenderer(int digitalLabelHeight = 60) : ClockFaceRendererBase(digitalLabelHeight)
 {
     private static Color Accent => AccentColorHelper.GetAccentColor();
-
     protected override Color DialCenterColor => AccentColorHelper.Lighten(Accent, 0.6f);
     protected override Color DialEdgeColor => AccentColorHelper.Darken(Accent, 0.3f);
     protected override Color BezelColor => AccentColorHelper.Darken(Accent, 0.5f);

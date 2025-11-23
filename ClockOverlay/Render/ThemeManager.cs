@@ -6,7 +6,6 @@ namespace ClockOverlay.Render;
 public sealed class ThemeManager
 {
     private readonly IConfigurationRoot _config;
-
     public ClockTheme CurrentTheme { get; private set; }
     public int DigitalLabelHeight { get; private set; } = 60;
 

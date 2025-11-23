@@ -4,7 +4,7 @@ using System.Drawing;
 using ClockOverlay.Render;
 
 [ClockTheme(ClockTheme.GlassDark)]
-public sealed class GlassDarkClockFaceRenderer(int digitalLabelHeight = 60)    : ClockFaceRendererBase(digitalLabelHeight)
+public sealed class GlassDarkClockFaceRenderer(int digitalLabelHeight = 60) : ClockFaceRendererBase(digitalLabelHeight)
 {
     protected override Color DialCenterColor => Color.FromArgb(170, 25, 30, 40);
     protected override Color DialEdgeColor => Color.FromArgb(220, 10, 15, 25);

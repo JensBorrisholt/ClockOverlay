@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jens Borrisholt\\Source\\repos\\ClockOverlay\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3AB28A49-861D-4B7B-B926-34AFF1B50D94}|ClockOverlay\\ClockOverlay.csproj|c:\\users\\jens borrisholt\\source\\repos\\clockoverlay\\clockoverlay\\render\\thememanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AB28A49-861D-4B7B-B926-34AFF1B50D94}|ClockOverlay\\ClockOverlay.csproj|solutionrelative:clockoverlay\\render\\thememanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AB28A49-861D-4B7B-B926-34AFF1B50D94}|ClockOverlay\\ClockOverlay.csproj|c:\\users\\jens borrisholt\\source\\repos\\clockoverlay\\clockoverlay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AB28A49-861D-4B7B-B926-34AFF1B50D94}|ClockOverlay\\ClockOverlay.csproj|solutionrelative:clockoverlay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ThemeManager.cs",
+              "DocumentMoniker": "C:\\Users\\Jens Borrisholt\\Source\\repos\\ClockOverlay\\ClockOverlay\\Render\\ThemeManager.cs",
+              "RelativeDocumentMoniker": "ClockOverlay\\Render\\ThemeManager.cs",
+              "ToolTip": "C:\\Users\\Jens Borrisholt\\Source\\repos\\ClockOverlay\\ClockOverlay\\Render\\ThemeManager.cs",
+              "RelativeToolTip": "ClockOverlay\\Render\\ThemeManager.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAArwAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T06:26:34.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jens Borrisholt\\Source\\repos\\ClockOverlay\\ClockOverlay\\Program.cs",
+              "RelativeDocumentMoniker": "ClockOverlay\\Program.cs",
+              "ToolTip": "C:\\Users\\Jens Borrisholt\\Source\\repos\\ClockOverlay\\ClockOverlay\\Program.cs",
+              "RelativeToolTip": "ClockOverlay\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T06:25:36.9Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
