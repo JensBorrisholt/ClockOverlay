@@ -2,7 +2,6 @@ using Microsoft.Extensions.Configuration;
 using ClockOverlay.Win32;
 using ClockOverlay.Render;
 
-//PngThemeGenerator.GenerateAllThemes(@"C:\GeneratedThemes");
 var configRoot = new ConfigurationBuilder()
     .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
     .Build();
