@@ -7,20 +7,36 @@ public enum ClockTheme
 {
     Accent,
     AeroBlue,
+    Amiga500,
+    BladeRunner,
     BrassAntique,
+    BrushedSteel,
     CarbonFiber,
+    C64Blue,
+    CircuitBoard,
     Classic95,
     Dark,
+    DeepSpace,
+    DottedDark,
+    FalloutPipBoy,
     FireRed,
+    FlatMono,
     GlassDark,
     GlassLight,
+    GridWhite,
+    HardMetal,
     Light,
+    MacOSClassic,
     MinimalisticWhite,
+    Nebula,
     Neon,
     OceanBlue,
     RadialMetal,
     Retro,
+    SolarFlare,
+    StarTrekLcARS,
     Sunburst,
+    TronLegacy,
     Win2000,
     Win311,
     WinME,
@@ -29,6 +45,12 @@ public enum ClockTheme
 }
 
 
+public enum ClockChimeMode
+{
+    Off,
+    Hourly,
+    QuarterHourly
+}
 
 public static class ClockThemeFactory
 {

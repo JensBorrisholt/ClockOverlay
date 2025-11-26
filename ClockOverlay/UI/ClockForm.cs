@@ -1,5 +1,6 @@
 ﻿namespace ClockOverlay.UI;
 
+using System.Media;
 using ClockOverlay.Render;
 using static ClockOverlay.Win32.Win32Helpers;
 
@@ -20,17 +21,44 @@ public class ClockForm : Form
         set => SetRenderer(value);
     }
 
+    private void HandleChime(DateTime now)
+    {
+        if (!_themeManager.ChimeEnabled)
+            return;
+
+        var shouldChime = false;
+
+        switch (_themeManager.ChimeMode)
+        {
+            case ClockChimeMode.Hourly:
+                shouldChime = now.Minute == 0 && now.Second == 0;
+                break;
+
+            case ClockChimeMode.QuarterHourly:
+                shouldChime = (now.Minute % 15 == 0) && now.Second == 0;
+                break;
+
+            case ClockChimeMode.Off:
+            default:
+                return;
+        }
+
+        if (!shouldChime)
+            return;
+
+        SystemSounds.Asterisk.Play();
+    }
     private void SetRenderer(ClockFaceRendererBase face)
     {
         if (IsDisposed)
-            return; 
+            return;
 
         if (InvokeRequired)
         {
             BeginInvoke(new Action<ClockFaceRendererBase>(SetRenderer), face);
             return;
         }
-        
+
         _renderer = face;
         _digitalLabel.Height = _renderer.DigitalLabelHeight;
         Invalidate();
@@ -79,15 +107,22 @@ public class ClockForm : Form
         {
             var now = DateTime.Now;
             _lastFrameTime = now;
-
-            if (now.Second != _lastSecond)
+            var doRender = now.Second != _lastSecond;
+            if (doRender)
             {
+                HandleChime(now);
                 _lastSecond = now.Second;
-                _digitalLabel.Text = now.ToString("HH:mm:ss");
             }
 
             if (Visible)
-                Invalidate();
+            {
+                _digitalLabel.Text = now.ToString("HH:mm:ss");
+
+                if (_themeManager.SmoothAnimation)
+                    Invalidate();
+                else if (doRender)
+                    Invalidate();
+            }
 
             await Task.Delay(delayMs);
         }

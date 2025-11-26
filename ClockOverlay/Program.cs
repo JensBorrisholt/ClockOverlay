@@ -2,7 +2,6 @@ using Microsoft.Extensions.Configuration;
 using ClockOverlay.Win32;
 using ClockOverlay.Render;
 
-//PngThemeGenerator.GenerateAllThemes(@"C:\GeneratedThemes");
 var configRoot = new ConfigurationBuilder()
     .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
     .Build();
@@ -15,6 +14,6 @@ using var tray = new TrayIconService();
 if (tray.ShouldExitImmediately)
     return;
 
-var mouseHook = new MouseHook().Start();
-var keyboardHook = new KeyboardHook().Start();
+using var mouseHook = new MouseHook().Start();
+using var keyboardHook = new KeyboardHook().Start();
 Application.Run();
