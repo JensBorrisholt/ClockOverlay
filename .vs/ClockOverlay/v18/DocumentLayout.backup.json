@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Jens Borrisholt\\Source\\repos\\ClockOverlay\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3AB28A49-861D-4B7B-B926-34AFF1B50D94}|ClockOverlay\\ClockOverlay.csproj|c:\\users\\jens borrisholt\\source\\repos\\clockoverlay\\clockoverlay\\win32 helper\\accentcolorhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AB28A49-861D-4B7B-B926-34AFF1B50D94}|ClockOverlay\\ClockOverlay.csproj|solutionrelative:clockoverlay\\win32 helper\\accentcolorhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3AB28A49-861D-4B7B-B926-34AFF1B50D94}|ClockOverlay\\ClockOverlay.csproj|c:\\users\\jens borrisholt\\source\\repos\\clockoverlay\\clockoverlay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3AB28A49-861D-4B7B-B926-34AFF1B50D94}|ClockOverlay\\ClockOverlay.csproj|solutionrelative:clockoverlay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,15 +30,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccentColorHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Jens Borrisholt\\Source\\repos\\ClockOverlay\\ClockOverlay\\Win32 Helper\\AccentColorHelper.cs",
+              "RelativeDocumentMoniker": "ClockOverlay\\Win32 Helper\\AccentColorHelper.cs",
+              "ToolTip": "C:\\Users\\Jens Borrisholt\\Source\\repos\\ClockOverlay\\ClockOverlay\\Win32 Helper\\AccentColorHelper.cs",
+              "RelativeToolTip": "ClockOverlay\\Win32 Helper\\AccentColorHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T13:19:03.516Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Jens Borrisholt\\Source\\repos\\ClockOverlay\\ClockOverlay\\appsettings.json",
               "RelativeDocumentMoniker": "ClockOverlay\\appsettings.json",
@@ -42,12 +59,11 @@
               "RelativeToolTip": "ClockOverlay\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-23T08:34:37.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T08:34:37.462Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ClockThemeFactory.cs",
               "DocumentMoniker": "C:\\Users\\Jens Borrisholt\\Source\\repos\\ClockOverlay\\ClockOverlay\\Render\\ClockThemeFactory.cs",
               "RelativeDocumentMoniker": "ClockOverlay\\Render\\ClockThemeFactory.cs",
@@ -55,12 +71,11 @@
               "RelativeToolTip": "ClockOverlay\\Render\\ClockThemeFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T07:12:51.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T07:12:51.541Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ClockForm.cs",
               "DocumentMoniker": "C:\\Users\\Jens Borrisholt\\Source\\repos\\ClockOverlay\\ClockOverlay\\UI\\ClockForm.cs",
               "RelativeDocumentMoniker": "ClockOverlay\\UI\\ClockForm.cs",
@@ -68,18 +83,17 @@
               "RelativeToolTip": "ClockOverlay\\UI\\ClockForm.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAqwAwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T06:39:24.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T06:39:24.904Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Jens Borrisholt\\Source\\repos\\ClockOverlay\\ClockOverlay\\Program.cs",
               "RelativeDocumentMoniker": "ClockOverlay\\Program.cs",
               "ToolTip": "C:\\Users\\Jens Borrisholt\\Source\\repos\\ClockOverlay\\ClockOverlay\\Program.cs",
               "RelativeToolTip": "ClockOverlay\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T06:25:36.9Z",
               "EditorCaption": ""

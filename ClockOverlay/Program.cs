@@ -14,6 +14,6 @@ using var tray = new TrayIconService();
 if (tray.ShouldExitImmediately)
     return;
 
-var mouseHook = new MouseHook().Start();
-var keyboardHook = new KeyboardHook().Start();
+using var mouseHook = new MouseHook().Start();
+using var keyboardHook = new KeyboardHook().Start();
 Application.Run();
